@@ -10,19 +10,14 @@ spring:
     url: jdbc:mysql://localhost:3306/msvc_usuarios
     username: root
     password: root
-    driverClassName: com.mysql.cj.jdbc.Driver
-    dialect: org.hibernate.dialect.MySQLDialect
-    hibernate:
-      show_sql: true
-      hbm2dll:
-        auto: true
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true
     hibernate:
-      dll-auto: create
+      ddl-auto: create  # Asegúrate de usar 'ddl-auto' en lugar de 'dll-auto'
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
-loggin:
+logging:
   level:
     org.hibernate.SQL: debug

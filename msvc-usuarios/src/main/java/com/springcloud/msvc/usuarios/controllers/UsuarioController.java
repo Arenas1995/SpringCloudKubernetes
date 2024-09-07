@@ -18,6 +18,7 @@ public class UsuarioController {
     public UsuarioController(UsuarioService usuarioService) {
         this.usuarioService = usuarioService;
     }
+
     @GetMapping("/listar-usuarios")
     public ResponseEntity<?> listarUsuarios() {
         return ResponseEntity.ok().body(usuarioService.listarUsuarios());
