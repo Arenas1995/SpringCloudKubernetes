@@ -23,7 +23,7 @@ public class CursoUsuario {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof CursoUsuario that)) return false;
-        return Objects.equals(id, that.id) && Objects.equals(usuarioId, that.usuarioId);
+        return Objects.equals(usuarioId, that.usuarioId);
     }
 
     @Override

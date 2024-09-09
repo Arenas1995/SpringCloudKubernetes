@@ -101,7 +101,7 @@ public class CursoServiceImpl implements CursoService {
             cursoUsuario.setUsuarioId(usuarioMsvc.getId());
 
             cursoMsvc.deleteCursoUsuario(cursoUsuario);
-            cursoRepository.delete(cursoMsvc);
+            cursoRepository.save(cursoMsvc);
 
             return Optional.of(usuarioMsvc);
         }
