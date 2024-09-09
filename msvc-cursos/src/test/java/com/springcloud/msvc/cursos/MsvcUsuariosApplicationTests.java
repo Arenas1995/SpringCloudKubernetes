@@ -1,4 +1,4 @@
-package com.springcloud.msvc.usuarios;
+package com.springcloud.msvc.cursos;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

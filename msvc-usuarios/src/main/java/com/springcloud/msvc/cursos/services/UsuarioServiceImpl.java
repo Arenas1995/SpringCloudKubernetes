@@ -1,7 +1,7 @@
-package com.springcloud.msvc.usuarios.services;
+package com.springcloud.msvc.cursos.services;
 
-import com.springcloud.msvc.usuarios.models.entity.UsuarioEntity;
-import com.springcloud.msvc.usuarios.repositories.UsuarioRepository;
+import com.springcloud.msvc.cursos.models.entity.UsuarioEntity;
+import com.springcloud.msvc.cursos.repositories.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

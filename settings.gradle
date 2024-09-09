@@ -1,6 +1,8 @@
 rootProject.name = "curso-springcloud-kubernetes"
 
 include("msvc-usuarios")
+include("msvc-cursos")
 
 project(":msvc-usuarios").projectDir = file("./msvc-usuarios")
+project(":msvc-cursos").projectDir = file("./msvc-cursos")
 

@@ -1,6 +1,6 @@
-package com.springcloud.msvc.usuarios.repositories;
+package com.springcloud.msvc.cursos.repositories;
 
-import com.springcloud.msvc.usuarios.models.entity.UsuarioEntity;
+import com.springcloud.msvc.cursos.models.entity.UsuarioEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
